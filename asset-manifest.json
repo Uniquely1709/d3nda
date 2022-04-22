@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/d3nda/static/css/main.40ea1b49.css",
+    "main.js": "/d3nda/static/js/main.32b0c091.js",
+    "static/js/787.8dbbaf78.chunk.js": "/d3nda/static/js/787.8dbbaf78.chunk.js",
+    "static/media/background.jpg": "/d3nda/static/media/background.27b8b7b87421b89bfd41.jpg",
+    "index.html": "/d3nda/index.html",
+    "main.40ea1b49.css.map": "/d3nda/static/css/main.40ea1b49.css.map",
+    "main.32b0c091.js.map": "/d3nda/static/js/main.32b0c091.js.map",
+    "787.8dbbaf78.chunk.js.map": "/d3nda/static/js/787.8dbbaf78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40ea1b49.css",
+    "static/js/main.32b0c091.js"
+  ]
+}

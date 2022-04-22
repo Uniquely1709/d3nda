@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import Background from "./ressources/background.jpg";
 
+import "./App.css";
+
+const background = {
+  backgroundImage: `url(${Background})`,
+  backgroundSize: "cover",
+};
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-image img-fluid w-100 h-100" style={background}>
+      <div className="d-flex h-100 text-center text-white">
+        <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+          <Header />
+          <Home />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

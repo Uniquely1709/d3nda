@@ -9,7 +9,7 @@ const Footer = () => {
   };
   return (
     <footer className="mt-auto">
-      <div className="row">
+      <div className="row mx-0">
         <div className="col-md-4 col-6 text-start">
           <span> &copy; J.Denda {getCurrentYear()}</span>
         </div>
